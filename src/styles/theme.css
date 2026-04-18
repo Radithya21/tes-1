@@ -1,0 +1,13 @@
+/* =====================================================
+   THEME — Light Mode Overrides
+   Applied via [data-theme="light"] on <html>
+   ===================================================== */
+
+[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-text: #0a0a0a;
+  --color-text-muted: #555555;
+  --color-border: #e0e0e0;
+  --color-surface: #f5f5f5;
+  --color-surface-hover: #ebebeb;
+}

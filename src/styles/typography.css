@@ -1,0 +1,71 @@
+/* =====================================================
+   TYPOGRAPHY — Utility Classes + Heading Styles
+   ===================================================== */
+
+/* ---- Section Labels ---- */
+.label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* ---- Section Heading ---- */
+.section-heading {
+  font-size: var(--text-4xl);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+/* ---- Mono Text ---- */
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* ---- Hero Name ---- */
+.hero-name {
+  font-size: var(--text-hero);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+/* ---- Body Text ---- */
+.body-text {
+  font-size: var(--text-lg);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* ---- Muted ---- */
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* ---- Underline Link ---- */
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+}
+
+.link-underline:hover::after,
+.link-underline:focus::after {
+  transform: scaleX(1);
+}

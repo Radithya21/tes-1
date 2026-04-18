@@ -1,0 +1,18 @@
+.projects {
+  border-top: 1px solid var(--color-border);
+}
+
+.projects__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects__heading {
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-12);
+}
+
+.projects__list {
+  /* Children are project rows with their own borders */
+}

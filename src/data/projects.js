@@ -1,0 +1,67 @@
+export const projects = [
+  {
+    id: 1,
+    index: '01',
+    title: 'Sistem Manajemen SDM Perpustakaan UNAND',
+    shortTitle: 'SDM Perpustakaan UNAND',
+    role: 'Full-Stack Developer',
+    description:
+      'HR management system for Andalas University Library. Features OCR-powered document scanning for library staff records, employee management, and automated reporting. Built on a clean MVC architecture with Node.js and EJS server-side rendering.',
+    tech: ['Node.js', 'Express', 'EJS', 'OCR', 'MySQL'],
+    link: 'https://github.com/zakkyaulia/project_kabad',
+    year: '2025',
+    type: 'Web Application',
+  },
+  {
+    id: 2,
+    index: '02',
+    title: 'SIPANDI',
+    shortTitle: 'SIPANDI',
+    role: 'Full-Stack Developer',
+    description:
+      'Full-featured web application built with iterative development across 38 commits. Implements a complete MVC architecture with server-side rendering, database migrations, service layers, and middleware-based request handling.',
+    tech: ['Node.js', 'Express', 'EJS', 'JavaScript'],
+    link: 'https://github.com/zakkyaulia/sipandi',
+    year: '2025',
+    type: 'Web Application',
+  },
+  {
+    id: 3,
+    index: '03',
+    title: 'Neo Telemetri Capstone',
+    shortTitle: 'Neo Telemetri OR-14',
+    role: 'Backend Developer',
+    description:
+      'Graduation project for Neo Telemetri Open Recruitment 14. Led all backend architecture: RESTful API design, Sequelize ORM integration, database schema and migrations, and Express middleware configuration. Frontend delivered in React + Vite by the paired frontend developer.',
+    tech: ['Node.js', 'Express', 'Sequelize', 'REST API'],
+    link: 'https://github.com/zakkyaulia/neocapstone',
+    year: '2025',
+    type: 'Capstone — Team Project',
+  },
+  {
+    id: 4,
+    index: '04',
+    title: 'TB-GIS',
+    shortTitle: 'Geographic IS',
+    role: 'Developer',
+    description:
+      'Geographic Information Systems project integrating spatial data processing and interactive map-based visualization for academic coursework.',
+    tech: ['JavaScript', 'GIS', 'Web Mapping'],
+    link: 'https://github.com/zakkyaulia/TB-GIS',
+    year: '2024',
+    type: 'Academic Project',
+  },
+  {
+    id: 5,
+    index: '05',
+    title: 'Data Mining',
+    shortTitle: 'Data Mining',
+    role: 'Developer',
+    description:
+      'Python-based data mining and pattern recognition project. Implements multiple classification algorithms and data preprocessing pipelines for structured dataset analysis.',
+    tech: ['Python', 'Data Mining', 'Machine Learning'],
+    link: 'https://github.com/zakkyaulia/Data-Mining',
+    year: '2024',
+    type: 'Academic Project',
+  },
+]
